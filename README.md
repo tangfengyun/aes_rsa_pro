@@ -12,6 +12,8 @@
 //加密密钥
 $key = 'hello-world';
 $aes = new Aes($key);
+//要加密的数据
+$data = "xiaoleilei";
 //加密
 $encryptAes =  $aes->encrypt($data);
 //解密
